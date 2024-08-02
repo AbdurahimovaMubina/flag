@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-image: url(img/IMAGE\ \(9\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header-text h1 {
+    font-family: Roboto;
+font-size: 62px;
+font-weight: 400;
+line-height: 70.4px;
+letter-spacing: 1px;
+width: 453px;
+padding-bottom: 28px;
+}
+
+.header-text p {
+    font-family: Roboto;
+    width: 477px;
+font-size: 16px;
+font-weight: 400;
+line-height: 28.8px;
+letter-spacing: 0.4000000059604645px;
+padding-bottom: 28px;
+}
+
+.header-text {
+    padding-top: 100px;
+}
+.header-btn button {
+    width: 189px;
+    height: 44px;
+    background-color: #5D3EA8;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+.header-btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header-btn .icon-1 {
+    position: absolute;
+    bottom: 0;
+    left: 160px;
+    bottom: 17px;
+    cursor: pointer;
+}
+.header-btn p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.header-btn .icon-2 {
+    cursor: pointer;
+}
+
+main h1 {
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 57.6px;
+    letter-spacing: 1px;
+    padding-top: 100px;
+}
+
+.main-num h2 {
+    font-family: Roboto;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 43.2px;
+    letter-spacing: 0.5px;
+}
+.main-num-2 {
+    width: 501px;
+}
+
+.main-right {
+    padding-top: 100px;
+}
+
+.main-right p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25.6px;
+    letter-spacing: 0.4000000059604645px;
+    width: 469px;
+}
+
+.container-2 {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 180px;
+}
+.main-foter {
+    display: flex;
+    gap: 15px;
+    padding-top: 130px;
+    margin-bottom: 100px;
+    padding-left: 64px;
+}
+.main-foter p {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.4000000059604645px;
+}
+
+.main-btn h3{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    background-color: white;
+    width: 140px;
+    cursor: pointer;
+    border-radius: 32px;
+    color: #0A044B;
+    text-align: center; 
+}
+
+
+.main-2 {
+    background-color: #EBEEF7;
+    height: 100vh;
+    padding-top: 100px;
+    gap: 200px;
+    padding-left: 64px;
+    display: flex;
+}
+.main-2-h1 {
+    color: #0A044B;
+}
+.main-text p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    letter-spacing: 0.4000000059604645px;
+    width: 519px;
+    color: #0A044B;
+    padding-bottom: 28px;
+}
+.main-img img {
+    width: 400px;
+    height: 400px;
+}
+
+.main-btn button {
+    width: 189px;
+    height: 44px;
+    background-color: #5D3EA8;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+.main-btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.main-btn .icon-1 {
+    position: absolute;
+    bottom: 0;
+    left: 160px;
+    bottom: 17px;
+    cursor: pointer;
+}
+.sec-title p{
+    font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+line-height: 21px;
+text-align: center;
+padding-top: 80px;
+}
+.sec-text {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0 auto;
+    line-height: 67.2px;
+    text-align: center;
+    width: 1000px;
+    padding-top: 70px;
+}
+.sec-text .sec-text-2 {
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 57.6px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #0A044B;
+    padding-top: 250px;
+}
+.sec-row {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec-row-1 {
+    display: flex;
+    gap: 16px;
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+}
+.sec-left-h1 {
+    font-family: Roboto;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 43.2px;
+    letter-spacing: 0.5px;
+    color: #0A044B;
+
+}
+.sec-left p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    letter-spacing: 0.4000000059604645px;
+    width: 519px;
+    color: #0A044B;
+    padding-bottom: 28px;
+}
+.sec-rows {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row-1 {
+    margin-top: 100px;
+}
+
+.row-1-fut {
+    display: flex;
+    margin-top: 15px;
+}
+
+.row-2 p {
+    font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 25.6px;
+letter-spacing: 0.4000000059604645px; 
+margin-bottom: 27px;
+width: 518px;
+}
+.row-2 {
+    margin-top: ;
+}
